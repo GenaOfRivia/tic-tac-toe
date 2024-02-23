@@ -1,15 +1,16 @@
 import React from 'react'
 
 interface Props {
+    value: string,
     onClick: () => void
 }
 
 
 
-const Square = ({onClick}: Props) => {
+const Square = ({onClick,value}: Props) => {
   return (
     <button type='button' onClick = {onClick}>
-        X
+        {value}
     </button>
   )
 }
