@@ -1,9 +1,15 @@
 import React from 'react'
 
-const Square = () => {
+interface Props {
+    onClick: () => void
+}
+
+
+
+const Square = ({onClick}: Props) => {
   return (
-    <button type='button'>
-        x
+    <button type='button' onClick = {onClick}>
+        X
     </button>
   )
 }
