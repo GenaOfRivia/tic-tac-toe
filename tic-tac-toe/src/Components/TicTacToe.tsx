@@ -15,7 +15,6 @@ const TicTacToe = () => {
     }
   return (
     <div>
-        <h1>yes</h1>
         <Board onClick = {handleClick} value = {value}/>
     </div>
   );

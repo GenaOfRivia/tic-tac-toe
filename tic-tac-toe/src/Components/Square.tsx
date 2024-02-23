@@ -9,7 +9,7 @@ interface Props {
 
 const Square = ({onClick,value}: Props) => {
   return (
-    <button type='button' onClick = {onClick}>
+    <button type='button' onClick = {onClick} style={{width: '200px', height: '200px'}}>
         {value}
     </button>
   )
